@@ -16,9 +16,9 @@
 
 👤 **Dafne Azzolina**
 
-- GitHub: [@githubhandle](https://github.com/Daf98)
-- Twitter: [@twitterhandle](https://twitter.com/dafne_azzolina)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/dafne-azzolina/)
+- GitHub: [@Daf98](https://github.com/Daf98)
+- Twitter: [@dafne_azzolina](https://twitter.com/dafne_azzolina)
+- LinkedIn: [dafne-azzolina](https://www.linkedin.com/in/dafne-azzolina/)
 
 
 ## Show your support
