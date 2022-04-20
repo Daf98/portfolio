@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300;400;500;600;700&family=Poppins&family=Roboto:wght@700&display=swap');
+
+body {
+  background-color: black;
+  background-image: url('Group.png');
+  background-repeat: no-repeat;
+  background-position: 100% 170%;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+.headline {
+  margin: 0 24px 0 24px;
+  width: 327px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.title {
+  font-family: Crete-Round, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+}
+
+div {
+  width: 25px;
+  height: 2px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+.name {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 24px;
+}
+
+.subtitle {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 0;
+}
+
+.description {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.icons li {
+  padding-right: 12px;
+}
