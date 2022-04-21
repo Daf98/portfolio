@@ -1,6 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300;400;500;600;700&family=Poppins&family=Roboto:wght@700&display=swap');
-
 body {
+  margin: 0;
+  padding: 0;
+}
+
+.firstPage {
   background-color: black;
   background-image: url('Group.png');
   background-repeat: no-repeat;
@@ -72,9 +75,142 @@ ul {
 
 .icons {
   display: flex;
-  align-items: center;
 }
 
 .icons li {
   padding-right: 12px;
+}
+
+.workTitle {
+  font-family: Crete-Round, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  width: 375px;
+  left: 0;
+  top: 682px;
+}
+
+.works {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.yoga {
+  margin-top: 30px;
+}
+
+.border {
+  width: 327px;
+  height: 0;
+  left: 0;
+  top: 107px;
+  border: 1px solid #212121;
+}
+
+.secondPage {
+  background: #e5e5e5;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.secondItem {
+  background-image: url('secondBG.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.bigText {
+  font-family: Crete-Round, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: white;
+}
+
+.smallText {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+.mainText {
+  color: black;
+}
+
+.socials {
+  display: flex;
+  padding-left: 0;
+}
+
+.boxes {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  border: 1px solid #8993a4;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  margin-right: 12px;
+  color: white;
+}
+
+.specialButton {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  position: static;
+  width: 124px;
+  height: 48px;
+  left: 0;
+  top: 259px;
+  background: #ff6b00;
+  color: white;
+  border: 0;
+}
+
+.card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.regButton {
+  width: 327px;
+  height: 48px;
+  left: 0;
+  top: 0;
+  background: #ff6b00;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: white;
+  padding-left: 100px;
+}
+
+.specialItem {
+  color: black;
 }
