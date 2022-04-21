@@ -32,10 +32,9 @@ ul {
   color: #ff6b00;
 }
 
-div {
+.hamburger {
   width: 25px;
   height: 2px;
-  background-color: white;
   margin: 6px 0;
 }
 
