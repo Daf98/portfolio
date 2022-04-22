@@ -3,6 +3,7 @@ body {
   padding: 0;
 }
 
+/* First page */
 .firstPage {
   background-color: black;
   background-image: url('Group.png');
@@ -80,6 +81,8 @@ ul {
 .icons li {
   padding-right: 12px;
 }
+
+/* Second page */
 
 .workTitle {
   font-family: Crete-Round, sans-serif;
@@ -213,4 +216,101 @@ ul {
 
 .specialItem {
   color: black;
+}
+
+/* Third page */
+.aboutMe {
+  background-color: black;
+  background-image: url('Frame.png');
+  background-repeat: no-repeat;
+  background-position: 100% 28%;
+  color: #f4f5f7;
+}
+
+.bioTitle {
+  font-family: Crete-Round, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin-bottom: 0;
+  padding: 24px;
+  padding-top: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.bio {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 24px;
+  margin: 0;
+}
+
+.resume {
+  height: 48px;
+  left: 12px;
+  top: 12px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background: #ff6b00;
+  border: 0;
+  margin-left: 20px;
+  color: white;
+}
+
+.listTitle {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rectangleIcon {
+  background-image: url('shapes/Rectangle.png');
+  background-repeat: no-repeat;
+  background-position: 21% 48%;
+}
+
+.rhombusIcon {
+  background-image: url('shapes/Rhombus.png');
+  background-repeat: no-repeat;
+  background-position: 21% 48%;
+}
+
+.circleIcon {
+  background-image: url('shapes/Circle.png');
+  background-repeat: no-repeat;
+  background-position: 35% 48%;
+}
+
+.itemsList {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.whiteLine {
+  margin-left: 50px;
+  padding-top: 320px;
+  padding-bottom: 100px;
 }
