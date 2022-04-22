@@ -10,6 +10,15 @@ body {
   background-repeat: no-repeat;
   background-position: 100% 170%;
   color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 375px;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 ul {
@@ -18,10 +27,9 @@ ul {
 
 .headline {
   margin: 0 24px 0 24px;
-  width: 327px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .title {
@@ -48,6 +56,7 @@ ul {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
+  padding-top: 20px;
 }
 
 .container {
@@ -90,18 +99,14 @@ ul {
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
-  width: 375px;
   left: 0;
   top: 682px;
-}
-
-.works {
-  margin-left: 40px;
-  margin-right: 40px;
+  padding-left: 20px;
 }
 
 .yoga {
   margin-top: 30px;
+  padding-left: 15px;
 }
 
 .border {
@@ -110,12 +115,21 @@ ul {
   left: 0;
   top: 107px;
   border: 1px solid #212121;
+  padding-left: 20px;
+}
+
+.overflow {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20px;
 }
 
 .secondPage {
   background: #e5e5e5;
   display: grid;
   grid-template-columns: 1fr;
+  width: 375px;
 }
 
 .secondItem {
@@ -126,7 +140,9 @@ ul {
   flex-direction: column;
   justify-content: center;
   margin-top: 40px;
+  margin-left: 4px;
   padding: 20px;
+  width: 327px;
 }
 
 .bigText {
@@ -145,15 +161,18 @@ ul {
   font-size: 16px;
   line-height: 24px;
   color: white;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .mainText {
   color: black;
+  padding-left: 10px;
 }
 
 .socials {
   display: flex;
-  padding-left: 0;
+  padding-left: 10px;
 }
 
 .boxes {
@@ -187,6 +206,7 @@ ul {
   background: #ff6b00;
   color: white;
   border: 0;
+  margin-left: 12px;
 }
 
 .card1 {
@@ -218,13 +238,29 @@ ul {
   color: black;
 }
 
+.works {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* Third page */
 .aboutMe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: black;
   background-image: url('Frame.png');
   background-repeat: no-repeat;
   background-position: 100% 28%;
   color: #f4f5f7;
+  width: 375px;
 }
 
 .bioTitle {
@@ -236,6 +272,7 @@ ul {
   letter-spacing: 0.37px;
   color: #ff6b00;
   margin-bottom: 0;
+  margin-top: 0;
   padding: 24px;
   padding-top: 120px;
   display: flex;
@@ -264,6 +301,7 @@ ul {
   background: #ff6b00;
   border: 0;
   margin-left: 20px;
+  margin-right: 20px;
   color: white;
 }
 
@@ -287,7 +325,7 @@ ul {
 .rhombusIcon {
   background-image: url('shapes/Rhombus.png');
   background-repeat: no-repeat;
-  background-position: 21% 48%;
+  background-position: 18% 48%;
 }
 
 .circleIcon {
@@ -310,7 +348,6 @@ ul {
 }
 
 .whiteLine {
-  margin-left: 50px;
   padding-top: 320px;
   padding-bottom: 100px;
 }
