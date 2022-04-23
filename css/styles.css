@@ -1,11 +1,12 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: white;
 }
 
 /* First page */
 .firstPage {
-  background-color: black;
+  background-color: #1c1a19;
   background-image: url('Group.png');
   background-repeat: no-repeat;
   background-position: 100% 170%;
@@ -92,9 +93,12 @@ ul {
 }
 
 /* Second page */
+.whitePart {
+  background-color: white;
+}
 
 .workTitle {
-  font-family: Crete-Round, sans-serif;
+  font-family: Crete-Round, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -102,6 +106,7 @@ ul {
   left: 0;
   top: 682px;
   padding-left: 20px;
+  color: black;
 }
 
 .yoga {
@@ -123,6 +128,7 @@ ul {
   justify-content: center;
   flex-direction: column;
   padding-left: 20px;
+  background-color: white;
 }
 
 .secondPage {
@@ -142,6 +148,7 @@ ul {
   margin-top: 40px;
   margin-left: 4px;
   padding: 20px;
+  padding-bottom: 0;
   width: 327px;
 }
 
@@ -209,14 +216,28 @@ ul {
   margin-left: 12px;
 }
 
+.specialButton:hover {
+  color: #f55800;
+  background-color: #fff5e1;
+  border: #f55800 solid 1px;
+}
+
+.specialButton:active {
+  background-color: #e05304;
+  color: white;
+}
+
 .card1 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  background-color: white;
 }
 
 .regButton {
-  width: 327px;
+  margin-left: 4px;
+  margin-right: 4px;
+  border: 0;
   height: 48px;
   left: 0;
   top: 0;
@@ -231,7 +252,18 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: white;
-  padding-left: 100px;
+  padding-left: 120px;
+}
+
+.regButton:hover {
+  color: #f55800;
+  background-color: #fff5e1;
+  border: #f55800 solid 1px;
+}
+
+.regButton:active {
+  background-color: #e05304;
+  color: white;
 }
 
 .specialItem {
@@ -242,12 +274,14 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  color: white;
 }
 
 .cards {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-color: white;
 }
 
 /* Third page */
@@ -255,7 +289,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: black;
+  background-color: #1c1a19;
   background-image: url('Frame.png');
   background-repeat: no-repeat;
   background-position: 100% 28%;
@@ -302,6 +336,17 @@ ul {
   border: 0;
   margin-left: 20px;
   margin-right: 20px;
+  color: white;
+}
+
+.resume:hover {
+  color: #f55800;
+  background-color: #fff5e1;
+  border: #f55800 solid 1px;
+}
+
+.resume:active {
+  background-color: #e05304;
   color: white;
 }
 
