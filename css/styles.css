@@ -362,19 +362,19 @@ ul {
 }
 
 .rectangleIcon {
-  background-image: url('shapes/Rectangle.png');
+  background-image: url('./Shapes/Rectangle.png');
   background-repeat: no-repeat;
   background-position: 21% 48%;
 }
 
 .rhombusIcon {
-  background-image: url('shapes/Rhombus.png');
+  background-image: url('./Shapes/Rhombus.png');
   background-repeat: no-repeat;
   background-position: 18% 48%;
 }
 
 .circleIcon {
-  background-image: url('shapes/Circle.png');
+  background-image: url('./Shapes/Circle.png');
   background-repeat: no-repeat;
   background-position: 35% 48%;
 }
