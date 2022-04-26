@@ -292,7 +292,7 @@ ul {
   background-color: #1c1a19;
   background-image: url('Frame.png');
   background-repeat: no-repeat;
-  background-position: 100% 28%;
+  background-position: 100% 19%;
   color: #f4f5f7;
   width: 375px;
 }
@@ -362,19 +362,19 @@ ul {
 }
 
 .rectangleIcon {
-  background-image: url('shapes/Rectangle.png');
+  background-image: url('./Shapes/Rectangle.png');
   background-repeat: no-repeat;
   background-position: 21% 48%;
 }
 
 .rhombusIcon {
-  background-image: url('shapes/Rhombus.png');
+  background-image: url('./Shapes/Rhombus.png');
   background-repeat: no-repeat;
   background-position: 18% 48%;
 }
 
 .circleIcon {
-  background-image: url('shapes/Circle.png');
+  background-image: url('./Shapes/Circle.png');
   background-repeat: no-repeat;
   background-position: 35% 48%;
 }
@@ -395,4 +395,90 @@ ul {
 .whiteLine {
   padding-top: 320px;
   padding-bottom: 100px;
+}
+
+.form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.formTitle {
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  padding: 24px;
+  padding-top: 120px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  border-bottom: 1px solid lightgray;
+}
+
+.formUl {
+  padding: 0;
+}
+
+.formInput {
+  padding: 10px 0 10px 0;
+  border-bottom: 1px lightgray solid;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+input {
+  border: none;
+  padding: 0 16px 0 16px;
+}
+
+textarea {
+  background-color: #e5e5e5;
+  height: 114px;
+  width: 327px;
+  border: none;
+  padding: 12px;
+  font-family: Inter, sans-serif;
+}
+
+.formButton {
+  padding: 12px;
+  width: 131px;
+  height: 48px;
+  left: 98px;
+  background: #ff6b00;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  border: none;
+  margin-bottom: 120px;
+}
+
+.noBorder {
+  border: none;
+}
+
+.iconsBot {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  gap: 10px;
+  align-items: center;
+
+  /* background-color: black; */
 }
