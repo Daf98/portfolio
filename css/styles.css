@@ -422,6 +422,7 @@ form {
   justify-content: center;
   align-items: center;
   padding-left: 0;
+  border-bottom: 1px solid lightgray;
 }
 
 .formUl {
@@ -429,8 +430,8 @@ form {
 }
 
 .formInput {
-  padding: 10px;
-  border-bottom: 1px gray solid;
+  padding: 10px 0 10px 0;
+  border-bottom: 1px lightgray solid;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -438,16 +439,18 @@ form {
   line-height: 24px;
 }
 
-input,
-textarea {
+input {
   border: none;
+  padding: 0 16px 0 16px;
 }
 
 textarea {
   background-color: #e5e5e5;
   height: 114px;
   width: 327px;
-  border-bottom: none;
+  border: none;
+  padding: 12px;
+  font-family: Inter, sans-serif;
 }
 
 .formButton {
@@ -468,4 +471,14 @@ textarea {
 
 .noBorder {
   border: none;
+}
+
+.iconsBot {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  gap: 10px;
+  align-items: center;
+
+  /* background-color: black; */
 }
