@@ -15,8 +15,16 @@
     <section class="firstPage">
     <header class="container">
        <a href="#" class="name">John Doe</a>
-        <nav class="hamburger"> 
+        <nav class="menu">
             <img src="icons/Union.png" alt="Hamburger menu icon">
+        </nav>
+        <nav >
+            <ul class="displayedMenu"> 
+                <li>Portfolio</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li><img src="./icons/Disabled.png" alt="Envelope"></li>
+            </ul>
         </nav>
     </header>
 <section class="desktopRow">
@@ -163,10 +171,10 @@
     <li>Selenium</li>
   </ul>
   </div>
-    <div class="card">
-  <h2 class="listTitle circleIcon">Skills</h2>
-  <ul class="itemsList">
-  <li>Codekit</li>
+    <div class="card skills">
+  <h2 class="listTitle  circleIcon">Skills</h2>
+   <ul class="itemsList">
+  <li >Codekit</li>
   <li>GitHub</li>
   <li>Codepen</li>
   <li>Gitlab</li>
@@ -177,7 +185,7 @@
 <section class="form">
     <div class="formSection">
     <h2 class="formTitle">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
-<form action="https://formspree.io/f/xvolvaze" method="post">
+<form class ="actualForm" action="https://formspree.io/f/xvolvaze" method="post">
     <ul class="formUl">
      <li  class="formInput">
        <input type="text" name="name" placeholder="Full name" maxlength="30" required>
