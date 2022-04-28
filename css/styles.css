@@ -2,7 +2,10 @@ body {
   margin: 0;
   padding: 0;
   background-color: white;
+  
 }
+
+
 
 /* First page */
 .firstPage {
@@ -14,7 +17,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 375px;
+  width: 100%;
 }
 
 a {
@@ -82,6 +85,7 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  width:auto;
 }
 
 .icons {
@@ -95,6 +99,7 @@ ul {
 /* Second page */
 .whitePart {
   background-color: white;
+  width: 100%;
 }
 
 .workTitle {
@@ -115,7 +120,7 @@ ul {
 }
 
 .border {
-  width: 327px;
+  width: 87.2%;
   height: 0;
   left: 0;
   top: 107px;
@@ -135,7 +140,7 @@ ul {
   background: #e5e5e5;
   display: grid;
   grid-template-columns: 1fr;
-  width: 375px;
+  width: 100%;
 }
 
 .secondItem {
@@ -149,7 +154,7 @@ ul {
   margin-left: 4px;
   padding: 20px;
   padding-bottom: 0;
-  width: 327px;
+  width: 87.2%;
 }
 
 .bigText {
@@ -252,7 +257,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: white;
-  padding-left: 120px;
+  justify-content: space-around;
 }
 
 .regButton:hover {
@@ -294,7 +299,7 @@ ul {
   background-repeat: no-repeat;
   background-position: 100% 19%;
   color: #f4f5f7;
-  width: 375px;
+  width: 100%;
 }
 
 .bioTitle {
@@ -447,7 +452,7 @@ input {
 textarea {
   background-color: #e5e5e5;
   height: 114px;
-  width: 327px;
+  width: 87.2%;
   border: none;
   padding: 12px;
   font-family: Inter, sans-serif;
@@ -482,3 +487,238 @@ textarea {
 
   /* background-color: black; */
 }
+
+/* Desktop version */
+
+@media only screen and (min-width: 768px) {
+/* First page */
+  .container {
+    background: #3E3C3C;
+    margin:0;
+    padding: 26px 154px;
+  }
+  .firstPage {
+    background-image: url('./Desktop/Illustration-header.png');
+    background-repeat: no-repeat;
+    background-position:100% 45%;
+  }
+.name {
+font-family: Inter, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+}
+.headline {
+ padding: 192px 731px 246px 143px;
+}
+.desktopRow {
+  display:flex;
+  flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.icons {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:10px;
+}
+.title {
+  font-size: 72px;
+line-height: 82px;
+}
+.subtitle {
+font-family: Inter, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 44px;
+}
+.description {
+  font-family: Inter, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+}
+/* Second page */
+.whitePart {
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top:100px;
+}
+.border {
+  width: 764px;
+  margin-left:100px;
+}
+.workTitle {
+  font-family: Crete-Round, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+color: #091E42;
+padding-left:153px;
+}
+.preCard {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background: white;
+}
+.yoga {
+  padding-left:100px;
+  width: 684px;
+  height: 448px;
+}
+.bigText {
+  font-family: Crete-Round, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+color:#091E42;
+}
+.smallText {
+  padding-right:200px;
+  font-family: Inter, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #091E42;
+}
+.cards {
+  display:grid;
+  grid-template-columns: 369px;
+  grid-template-rows:435px;
+  padding-left:10px;
+  padding-bottom:100px;
+}
+.firstCard {
+  grid-row: 1;
+  grid-column:1;
+  background-image: url('./Cards/firstCard.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  margin-left: 4px;
+  padding: 20px;
+  padding-bottom: 0;
+}
+.secondCard {
+  grid-row:1;
+  grid-column:2;
+  background-image: url('./Cards/secondCard.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  margin-left: 4px;
+  padding: 20px;
+  padding-bottom: 0;
+}
+.thirdCard {
+  grid-row:1;
+  grid-column:3;
+  background-image: url('./Cards/thirdCard.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  margin-left: 4px;
+  padding: 20px;
+  padding-bottom: 0;
+}
+.fourthCard {
+  grid-row:2;
+  grid-column:1;
+  background-image: url('./Cards/fourthCard.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  margin-left: 4px;
+  padding: 20px;
+  padding-bottom: 0;
+}
+.fifthCard {
+  grid-row:2;
+  grid-column:2;
+  background-image: url('./Cards/fifthCard.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  margin-left: 4px;
+  padding: 20px;
+  padding-bottom: 0;
+}
+.sixthCard {
+  grid-row:2;
+  grid-column:3;
+  background-image: url('./Cards/sixthCard.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 40px;
+  margin-left: 4px;
+  padding: 20px;
+  padding-bottom: 0;
+}
+.regButton {
+  display:none;
+
+
+}
+/* Third page */
+
+.aboutMe {
+  display:flex;
+  background-image:none;
+  background-color: #262626;
+}
+.thirdPage {
+  background-image: url("./Desktop/Dog.png");
+  background-repeat:no-repeat;
+  background-position: 100% 35%;
+  
+ display: flex;
+}
+.about {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left:142px;
+}
+.bio {
+  padding-right:600px;
+  padding-bottom:50px;
+}
+.whiteLine {
+  width:1156px;
+  height:1px;
+}
+.lists {
+  display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+padding-bottom: 200px;
+}
+.itemsList {
+  align-items: flex-start;
+  padding-left:153px;
+
+}
+/* Form */
+.formSection {
+display:flex;
+flex-direction: row;
+}
+.formTitle {
+  width: 455px;
+}
+.formInput {
+  border-bottom: 684px 1px solid lightgray;
+}
+}
+
