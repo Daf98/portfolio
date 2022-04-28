@@ -65,13 +65,15 @@ ul {
   font-size: 18px;
   line-height: 24px;
   padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .container {
+  background-color:#3C3A39;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 24px;
+  padding: 1% 5%;
 }
 
 .subtitle {
@@ -503,7 +505,7 @@ textarea {
   .container {
     background: #3e3c3c;
     margin: 0;
-    padding: 26px 154px;
+    padding: 0 154px;
   }
 
   .firstPage {
@@ -519,6 +521,7 @@ textarea {
     font-size: 20px;
     line-height: 20px;
     padding-top: 0;
+    padding-bottom:0;
   }
 
   .headline {
@@ -811,7 +814,7 @@ textarea {
   .container {
     background: #3e3c3c;
     margin: 0;
-    padding: 26px 154px;
+    padding: 0 154px;
   }
 
   .firstPage {
@@ -828,6 +831,7 @@ textarea {
     font-size: 20px;
     line-height: 20px;
     padding-top: 0;
+    padding-bottom:0;
   }
 
   .menu {
