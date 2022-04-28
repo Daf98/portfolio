@@ -301,6 +301,7 @@ ul {
 
 .about {
   height: 700px;
+  width: 100%;
 }
 
 .aboutMe {
@@ -339,6 +340,12 @@ ul {
   line-height: 24px;
   padding: 24px;
   margin: 0;
+}
+
+.whiteLine {
+  display: flex;
+  padding-top: 200px;
+  margin: 0 auto;
 }
 
 .resume {
@@ -386,24 +393,6 @@ ul {
   align-items: center;
   gap: 12px;
 }
-
-/* .rectangleIcon {
-  background-image: url('./Shapes/Rectangle.png');
-  background-repeat: no-repeat;
-  background-position: 21% 48%;
-}
-
-.rhombusIcon {
-  background-image: url('./Shapes/Rhombus.png');
-  background-repeat: no-repeat;
-  background-position: 18% 48%;
-}
-
-.circleIcon {
-  background-image: url('./Shapes/Circle.png');
-  background-repeat: no-repeat;
-  background-position: 35% 48%;
-} */
 
 .itemsList {
   font-family: Inter, sans-serif;
@@ -750,6 +739,7 @@ textarea {
     background-repeat: no-repeat;
     background-position: 100% 35%;
     display: flex;
+    width: 100%;
   }
 
   .about {
@@ -759,6 +749,7 @@ textarea {
     align-items: flex-start;
     justify-content: flex-start;
     padding-left: 142px;
+    width: 100%;
   }
 
   .bio {
@@ -769,7 +760,8 @@ textarea {
   .whiteLine {
     width: 1156px;
     height: 1px;
-    padding-top: 600px;
+    margin: 100px auto;
+    padding-top: 0;
   }
 
   .lists {
@@ -1031,6 +1023,7 @@ textarea {
     background-position: 100% 35%;
     background-size: 35%;
     display: flex;
+    width: 100%;
   }
 
   .about {
@@ -1040,6 +1033,7 @@ textarea {
     align-items: flex-start;
     justify-content: flex-start;
     padding-left: 10px;
+    width: 100%;
   }
 
   .bio {
@@ -1049,8 +1043,9 @@ textarea {
 
   .whiteLine {
     width: 50%;
+    padding-top: 0;
     height: 1px;
-    padding-top: 500px;
+    margin: 20px auto;
   }
 
   .lists {
