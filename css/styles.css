@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Inter:wght@400;700&family=Poppins&family=Roboto:wght@700&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -34,7 +36,7 @@ ul {
 }
 
 .title {
-  font-family: Crete-Round, sans-serif;
+  font-family: Crete-Round, serif;
   font-style: normal;
   font-weight: 400;
   font-size: 56px;
@@ -58,6 +60,10 @@ ul {
   display: none;
 }
 
+.actualForm {
+  margin: auto;
+}
+
 .name {
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -69,7 +75,7 @@ ul {
 }
 
 .container {
-  background-color:#3C3A39;
+  background-color: #3c3a39;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -521,11 +527,12 @@ textarea {
     font-size: 20px;
     line-height: 20px;
     padding-top: 0;
-    padding-bottom:0;
+    padding-bottom: 0;
   }
 
   .headline {
-    padding: 192px 731px 246px 143px;
+    padding: 120px 0;
+    padding-left: 45px;
   }
 
   .menu {
@@ -553,6 +560,8 @@ textarea {
     flex-direction: row-reverse;
     flex-wrap: nowrap;
     align-items: center;
+    justify-content: flex-end;
+    height: 800px;
   }
 
   .icons {
@@ -584,6 +593,11 @@ textarea {
   }
 
   /* Second page */
+  .secondPage {
+    margin: 0 100px;
+    width: auto;
+  }
+
   .whitePart {
     display: flex;
     flex-direction: row;
@@ -593,8 +607,8 @@ textarea {
   }
 
   .border {
-    width: 764px;
-    margin-left: 100px;
+    width: 70%;
+    margin-left: 5%;
   }
 
   .workTitle {
@@ -604,7 +618,8 @@ textarea {
     font-size: 40px;
     line-height: 52px;
     color: #091e42;
-    padding-left: 153px;
+    margin-left: 10px;
+    padding-left: 0;
   }
 
   .preCard {
@@ -615,7 +630,7 @@ textarea {
   }
 
   .yoga {
-    padding-left: 100px;
+    padding-left: 10px;
     width: 684px;
     height: 448px;
   }
@@ -626,17 +641,28 @@ textarea {
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
-    color: #091e42;
+    color: #fff;
   }
 
   .smallText {
-    padding-right: 200px;
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    color: #091e42;
+    color: #fff;
+  }
+
+  .mainText {
+    color: black;
+    padding-left: 10px;
+  }
+
+  .secondItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 600px;
   }
 
   .desktopCard {
@@ -751,31 +777,37 @@ textarea {
     flex-wrap: nowrap;
     align-items: flex-start;
     justify-content: flex-start;
-    padding-left: 142px;
+    padding: 0 142px;
     width: 100%;
   }
 
   .bio {
     padding-right: 600px;
     padding-bottom: 50px;
+    max-width: 50%;
   }
 
   .whiteLine {
-    width: 1156px;
+    width: 100%;
     height: 1px;
-    margin: 100px auto;
+    margin: 100px 0;
     padding-top: 0;
   }
 
   .lists {
+    margin: 0 10%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-bottom: 200px;
+    gap: 25%;
+  }
+
+  .titles {
+    justify-content: flex-start;
   }
 
   .itemsList {
     align-items: flex-start;
-    padding-left: 153px;
   }
 
   /* Form */
@@ -787,21 +819,28 @@ textarea {
   .formSection {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    max-width: 900px;
-    align-content: stretch;
-    gap: 30px;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    gap: 3%;
   }
 
   .actualForm {
     margin: 0;
     align-items: stretch;
-    width: 70%;
+    width: 40%;
+    gap: 10%;
   }
 
   .formTitle {
+    text-align: left;
     padding: 0;
-    width: 30%;
+    width: 40%;
+    color: #262626;
+  }
+
+  textarea {
+    background-color: #fbf8f7;
   }
 
   .formInput {
@@ -831,7 +870,7 @@ textarea {
     font-size: 20px;
     line-height: 20px;
     padding-top: 0;
-    padding-bottom:0;
+    padding-bottom: 0;
   }
 
   .menu {
