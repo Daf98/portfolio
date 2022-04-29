@@ -846,6 +846,10 @@ textarea {
   .formInput {
     border-bottom: 684px 1px solid lightgray;
   }
+
+  .formButton {
+    background-color: #f55800;
+  }
 }
 
 /* Tablet version */
