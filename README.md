@@ -19,12 +19,12 @@
  ```
 - Alternatively, you can just download the complete zip file and extract the folder in your directory
 #### Step 2:
-In the project directory, you can run:
+- In the project directory, you can run:
 ```bash
 > cd portfolio
 > code .
 ```
-Then open index.html in a live server.
+- Then open index.html in a live server.
 
 ## Authors
 
