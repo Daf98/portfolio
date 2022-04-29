@@ -19,9 +19,25 @@ body {
   width: 100%;
 }
 
+button {
+  transition: all 160ms ease-in;
+}
+
+button:hover {
+  background-color: #fff5e1;
+  border: 1px solid #f55800;
+  color: #f55800;
+}
+
+button:active {
+  background-color: #e05304;
+  color: white;
+}
+
 a {
   text-decoration: none;
   color: whitesmoke;
+  transition: all 0.5s ease;
 }
 
 ul {
@@ -553,6 +569,11 @@ textarea {
     gap: 10px;
     justify-content: space-between;
     align-items: center;
+    transition: all 0.5s ease;
+  }
+
+  .displayedMenu:hover {
+    color: #ff6b00;
   }
 
   .desktopRow {
@@ -895,6 +916,11 @@ textarea {
     gap: 10px;
     justify-content: space-between;
     align-items: center;
+    transition: all 0.5s ease;
+  }
+
+  .displayedMenu:hover {
+    color: #f55800;
   }
 
   .desktopRow {
