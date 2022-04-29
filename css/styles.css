@@ -919,6 +919,10 @@ textarea {
     transition: all 0.5s ease;
   }
 
+  .displayedMenu:hover {
+    color: #f55800;
+  }
+
   .desktopRow {
     display: flex;
     flex-direction: row-reverse;
