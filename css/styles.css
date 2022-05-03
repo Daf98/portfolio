@@ -207,6 +207,7 @@ ul {
 .mainText {
   color: black;
   padding-left: 10px;
+  max-width: 60%;
 }
 
 .socials {
