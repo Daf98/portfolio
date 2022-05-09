@@ -76,11 +76,11 @@ ul {
   display: none;
 } */
 hr {
-  margin-left: 0px;
-    margin-right: 5%;
-    margin-top: 0;
-    margin-bottom: 0;
-    color:#6F6C6B;
+  margin-left: 0;
+  margin-right: 5%;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #6f6c6b;
 }
 
 .displayedMenu {
@@ -93,7 +93,7 @@ hr {
   right: 0;
   bottom: 0;
   z-index: 99;
-  background: #3C3A39;
+  background: #3c3a39;
   color: white;
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -105,9 +105,9 @@ hr {
   flex-direction: column;
   align-content: space-around;
   justify-content: flex-start;
-  gap:5%;
-  margin:0;
-  padding-top:60px;
+  gap: 5%;
+  margin: 0;
+  padding-top: 60px;
 }
 
 .openMenu {
@@ -138,7 +138,7 @@ hr {
 }
 
 .container {
-  background-color: #3C3A39;
+  background-color: #3c3a39;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -609,6 +609,7 @@ textarea {
 
   .displayedMenu {
     display: flex;
+    padding: 10%;
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 600;
