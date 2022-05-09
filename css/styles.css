@@ -97,7 +97,9 @@ ul {
   display: flex;
   flex-direction: column;
   align-content: space-around;
-  justify-content: space-evenly;
+  justify-content: flex-start;
+  gap:5%;
+  margin-top:0;
 }
 
 .openMenu {
