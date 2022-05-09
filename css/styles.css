@@ -18,6 +18,7 @@ body {
   flex-direction: column;
   width: 100%;
 }
+
 .closeIcon {
   display: none;
 }
@@ -71,12 +72,13 @@ ul {
   margin: 6px 0;
 }
 
-#container {
+/* #container {
   display: none;
-}
+} */
 
 .displayedMenu {
-transform: translateY(-100%);
+/* transform: translateY(-100%); */
+display: none;
 transition: transform 0.1s;
 }
 
