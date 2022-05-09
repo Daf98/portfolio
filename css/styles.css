@@ -77,13 +77,40 @@ ul {
 } */
 
 .displayedMenu {
-/* transform: translateY(-100%); */
-display: none;
-transition: transform 0.1s;
+  /* display: none; */
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: #1c1a19;
+  color: white;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  justify-content: space-evenly;
 }
 
 .openMenu {
   transform: translateY(0);
+}
+
+.envelopeIcon {
+  display: none;
+}
+
+.navItem {
+  align-self: end;
+  padding-right: 5%;
 }
 
 .actualForm {
