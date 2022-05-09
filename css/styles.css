@@ -75,6 +75,13 @@ ul {
 /* #container {
   display: none;
 } */
+hr {
+  margin-left: 0px;
+    margin-right: 5%;
+    margin-top: 0;
+    margin-bottom: 0;
+    color:#6F6C6B;
+}
 
 .displayedMenu {
   /* display: none; */
@@ -86,7 +93,7 @@ ul {
   right: 0;
   bottom: 0;
   z-index: 99;
-  background: #1c1a19;
+  background: #3C3A39;
   color: white;
   font-family: Inter, sans-serif;
   font-style: normal;
@@ -99,7 +106,8 @@ ul {
   align-content: space-around;
   justify-content: flex-start;
   gap:5%;
-  margin-top:0;
+  margin:0;
+  padding-top:60px;
 }
 
 .openMenu {
@@ -130,7 +138,7 @@ ul {
 }
 
 .container {
-  background-color: #1C1A19;
+  background-color: #3C3A39;
   display: flex;
   justify-content: space-between;
   align-items: center;
