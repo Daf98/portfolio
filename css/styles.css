@@ -121,6 +121,13 @@ hr {
 .navItem {
   align-self: end;
   padding-right: 5%;
+  border: none;
+}
+
+.itemBorder {
+  border-bottom: 2px solid #6f6c6b;
+  margin-right: 10%;
+  line-height: 70px;
 }
 
 .actualForm {
