@@ -568,7 +568,7 @@ textarea {
   .container {
     background: #3e3c3c;
     margin: 0;
-    padding: 0 154px;
+    padding: 2% 5%;
   }
 
   .firstPage {
@@ -592,17 +592,22 @@ textarea {
     padding-left: 45px;
   }
 
-  .menu {
+  .hamburgerToggle {
     display: none;
   }
 
-  #container {
-    display: flex;
+  .itemBorder {
+    border-bottom: none;
+    margin-right: 0;
   }
 
-  .displayedMenu {
+  .desktopMenu {
+    background-color: #3e3c3c;
     display: flex;
-    padding: 10%;
+    transform: translateY(-50%);
+    position: static;
+    flex-direction: row;
+    padding: 0;
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -916,7 +921,7 @@ textarea {
   .container {
     background: #3e3c3c;
     margin: 0;
-    padding: 0 154px;
+    padding: 4% 5%;
   }
 
   .firstPage {
@@ -936,12 +941,31 @@ textarea {
     padding-bottom: 0;
   }
 
-  .menu {
+  .hamburgerToggle {
     display: none;
   }
 
-  #container {
+  .itemBorder {
+    border-bottom: none;
+    margin-right: 0;
+  }
+
+  .desktopMenu {
+    background-color: #3e3c3c;
     display: flex;
+    transform: translateY(-50%);
+    position: static;
+    flex-direction: row;
+    padding: 0;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1px;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
   }
 
   .displayedMenu {
