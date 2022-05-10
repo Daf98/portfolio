@@ -6,10 +6,11 @@ body {
   background-color: white;
 }
 
+
 /* First page */
 .firstPage {
   background-color: #1c1a19;
-  background-image: url('Group.png');
+  background-image: url('./Images/Group.png');
   background-repeat: no-repeat;
   background-position: 100% 100%;
   color: white;
@@ -25,6 +26,7 @@ body {
 
 button {
   transition: all 160ms ease-in;
+  cursor: pointer;
 }
 
 button:hover {
@@ -214,7 +216,7 @@ ul {
 }
 
 .secondItem {
-  background-image: url('secondBG.png');
+  background-image: url('./Images/secondBG.png');
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -376,7 +378,7 @@ ul {
   flex-direction: column;
   justify-content: center;
   background-color: #1c1a19;
-  background-image: url('Frame.png');
+  background-image: url('./Images/Frame.png');
   background-repeat: no-repeat;
   background-position: 100% 14%;
   color: #f4f5f7;
@@ -738,7 +740,7 @@ textarea {
   }
 
   .desktopCard {
-    background-image: url('secondBG.png');
+    background-image: url('./Images/secondBG.png');
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
