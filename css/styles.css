@@ -72,19 +72,7 @@ ul {
   margin: 6px 0;
 }
 
-/* #container {
-  display: none;
-} */
-hr {
-  margin-left: 0;
-  margin-right: 5%;
-  margin-top: 0;
-  margin-bottom: 0;
-  color: #6f6c6b;
-}
-
 .displayedMenu {
-  /* display: none; */
   position: fixed;
   transform: translateY(-100%);
   transition: transform 0.2s;
@@ -571,8 +559,6 @@ textarea {
   padding: 0;
   gap: 10px;
   align-items: center;
-
-  /* background-color: black; */
 }
 
 /* Desktop version */
@@ -756,10 +742,6 @@ textarea {
     width: 87.2%;
   }
 
-  /* .desktopCardButton {
-  background-color:#F55800;
-  color:white;
-} */
   .cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
