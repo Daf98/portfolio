@@ -16,14 +16,16 @@
     <header class="container">
        <a href="#" class="name">Dafne Azzolina</a>
         <nav class="menu">
-            <img src="icons/Union.png" alt="Hamburger menu">
-        </nav>
-        <nav id="container">
-            <ul class="displayedMenu"> 
-                <li><a class="transition" href="#"></a>Portfolio</li>
-                <li><a class="transition" href="#"></a>About</li>
-                <li><a class="transition" href="#"></a>Contact</li>
-                <li><img src="./icons/Disabled.png" alt="Message"></li>
+            <a href="#" class="hamburgerToggle">
+                <img class="menuIcon" src="./css/icons/Union.png" alt="Hamburger menu">
+            </a>
+        
+            <ul class="displayedMenu desktopMenu"> 
+                <li class="navItem"><img class="closeIcon menuItem" src="./css/icons/Icon.png" alt="Close button"></li>
+                <li class="itemBorder"><a href="#portfolio" class="transition menuItem">Portfolio</a></li>
+                <li class="itemBorder"><a href="#about" class="transition menuItem">About</a></li>
+                <li class="itemBorder"><a href="#contact" class="transition menuItem">Contact</a></li>
+                <li class="envelopeIcon"><img src="./css/icons/Disabled.png" alt="Message"></li>
             </ul>
         </nav>
     </header>
@@ -36,23 +38,23 @@
         don't hestiate to contact me.</p>
     </section>
 <ul class="icons">
-    <li><a href="https://github.com/Daf98"><img src="./icons/Github.png" alt="Github link"></a></li>
-    <li><a href="https://linkedin.com/in/dafne-azzolina/"><img src="./icons/Linkedin.png" alt="LinkedIn link"></a></li>
-    <li><a href="https://angel.co/"><img src="./icons/Angelist.png" alt="AngelList link"></a></li>
-    <li><a href="https://twitter.com/dafne_azzolina"><img src="./icons/Twitter.png" alt="Twitter link"></a></li>
-    <li><a href="https://medium.com/"><img src="./icons/Medium.png" alt="Medium link"></a></li>
+    <li><a href="https://github.com/Daf98"><img src="./css/icons/Github.png" alt="Github link"></a></li>
+    <li><a href="https://linkedin.com/in/dafne-azzolina/"><img src="./css/icons/Linkedin.png" alt="LinkedIn link"></a></li>
+    <li><a href="https://angel.co/"><img src="./css/icons/Angelist.png" alt="AngelList link"></a></li>
+    <li><a href="https://twitter.com/dafne_azzolina"><img src="./css/icons/Twitter.png" alt="Twitter link"></a></li>
+    <li><a href="https://medium.com/"><img src="./css/icons/Medium.png" alt="Medium link"></a></li>
 </ul>
 </section>
 </section>
 <!-- Beginning of second page -->
-<section class="secondPage">
+<section class="secondPage" id="portfolio">
 <section class="works">
     <div class="whitePart">
     <h2 class="workTitle">My recent works</h2>
-    <img src="css/Border.png" alt="" class="border"></div>
+    <img src="./css/Images/Border.png" alt="" class="border"></div>
 <section class="preCard">  
     <div class="card1">
-       <img class="yoga" src="css/Works/Preview.png" alt="Works presentation image"></div>
+       <img class="yoga" src="./css/Works/Preview.png" alt="Works presentation image"></div>
    <div class="overflow">
        <h2 class="bigText mainText">Multi-Post Stories</h2>
        <p class="smallText mainText">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.</p>
@@ -144,13 +146,13 @@
   
 
 <!-- Third page -->
-<section class="aboutMe">
+<section class="aboutMe" id="about">
     <section class="thirdPage">
         <section class="about">
     <h1 class="bioTitle">About Me</h1>
     <p class="bio">Hello I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.</p>
     <button type="button" class="resume">Get My Resume</button>
-    <img class="whiteLine" src="css/whiteBorder.png" alt="">
+    <img class="whiteLine" src="./css/Images/whiteBorder.png" alt="">
 </section>
 
 </section>
@@ -195,7 +197,7 @@
 </ul>
 </div>
 </section>
-<section class="form">
+<section class="form" id="contact">
     <div class="formSection">
     <h2 class="formTitle">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
 <form class ="actualForm" action="https://formspree.io/f/xvolvaze" method="post">
@@ -214,15 +216,16 @@
    </form>
 </div>
    <ul class="iconsBot">
-    <li><a href="https://github.com/Daf98"><img src="./dark-icons/Github.png" alt="Github link"></a></li>
-    <li><a href="https://linkedin.com/in/dafne-azzolina/"><img src="./dark-icons/Linkedin.png" alt="LinkedIn link"></a></li>
-    <li><a href="https://angel.co/"><img src="./dark-icons/Angelist.png" alt="AngelList link"></a></li>
-    <li><a href="https://twitter.com/dafne_azzolina"><img src="./dark-icons/Twitter.png" alt="Twitter link"></a></li>
-    <li><a href="https://medium.com/"><img src="./dark-icons/Medium.png" alt="Medium link"></a></li>
+    <li><a href="https://github.com/Daf98"><img src="./css/dark-icons/Github.png" alt="Github link"></a></li>
+    <li><a href="https://linkedin.com/in/dafne-azzolina/"><img src="./css/dark-icons/Linkedin.png" alt="LinkedIn link"></a></li>
+    <li><a href="https://angel.co/"><img src="./css/dark-icons/Angelist.png" alt="AngelList link"></a></li>
+    <li><a href="https://twitter.com/dafne_azzolina"><img src="./css/dark-icons/Twitter.png" alt="Twitter link"></a></li>
+    <li><a href="https://medium.com/"><img src="./css/dark-icons/Medium.png" alt="Medium link"></a></li>
 </ul>
 </section>
 
 
 </section>
+<script src="index.js"></script>
 </body>
 </html>
