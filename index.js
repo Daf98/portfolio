@@ -31,7 +31,8 @@ const projects = [
     technology: ["HTML", "CSS", "Javascript"],
     livelink: "#",
     sourcelink: "#",
-    id: "btn1"
+    id: "btn1",
+    class:"firstCard"
   },
 
  {
@@ -41,7 +42,8 @@ const projects = [
     technology: ["HTML", "CSS", "Javascript"],
     livelink: "#",
     sourcelink: "#",
-    id: "btn2"
+    id: "btn2",
+    class:"secondCard"
   },
 
   {
@@ -51,7 +53,8 @@ const projects = [
     technology: ["HTML", "CSS", "Javascript"],
     livelink: "#",
     sourcelink: "#",
-    id: "btn3"
+    id: "btn3",
+    class:"thirdCard"
   },
 
   {
@@ -61,7 +64,8 @@ const projects = [
     technology: ["HTML", "CSS"],
     livelink: "#",
     sourcelink: "#",
-    id: "btn4"
+    id: "btn4",
+    class:"fourthCard"
   },
 
   {
@@ -71,7 +75,8 @@ const projects = [
     technology: ["HTML", "CSS", "Javascript"],
     livelink: "#",
     sourcelink: "#",
-    id: "btn5"
+    id: "btn5",
+    class:"fifthCard"
   },
 
   {
@@ -81,17 +86,8 @@ const projects = [
     technology: ["HTML", "CSS", "Javascript", "Bootstrap"],
     livelink: "#",
     sourcelink: "#",
-    id: "btn6"
-  },
-
-  {
-    name: "Profesional Art Printing Data",
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    image: "./css/Works/preview.png",
-    technology: ["HTML", "CSS", "Bootstrap"],
-    livelink: "#",
-    sourcelink: "#",
-    id: "btn7"
+    id: "btn6",
+    class:"sixthCard"
   }
 ];
 
@@ -99,16 +95,26 @@ const projects = [
 
 
 const body = document.querySelector("body");
+const cardDiv = document.createElement("div");
+const secondPage = document.querySelector(".secondPage");
+cardDiv.classList.add("cards");
+const aboutMe = document.querySelector(".aboutMe");
+body.insertBefore(cardDiv, aboutMe);
+
 
 for (let i=0; i<projects.length; i++) {
-const section = document.createElement("section");
-const aboutMe = document.querySelector(".aboutMe");
-body.insertBefore(section, aboutMe);
+/* const section = document.createElement("section"); */
+/* section.classList.add("centeredDynamics"); */
+
+const secondItem = document.createElement("div");
+secondItem.classList.add("secondItem");
+secondItem.classList.add(projects[i].class);
+cardDiv.appendChild(secondItem);
+/* body.insertBefore(section, aboutMe); */
 
 
 
-section.innerHTML = `
-<div class="secondItem firstCard">
+secondItem.innerHTML = `
       <div class="descriptions">
       <h2 class="bigText">${projects[i].name}</h2>
       <p class="smallText">${projects[i].description}</p>
@@ -119,7 +125,6 @@ section.innerHTML = `
       </ul>
   </div>
       <button type="button" class="regButton">See Project</button>
-  </div>
 `;
 }
 
@@ -147,8 +152,8 @@ for (let i=0; i<projects.length; i++) {
       <img src=${projects[i].image} class="popupImg">
       <p class="popupDescription">${projects[i].description}</p>
       <div class="popupSources">
-        <button class="popupLive">See Live<img src=${projects[i].livelink} alt=""></button>
-        <button class="popupSource">See Source<img src=${projects[i].sourcelink} alt=""></button>
+        <button class="popupLive"><a href="${projects[i].livelink}">See Live</a><img src="./css/icons/Live.png" alt=""></button>
+        <button class="popupSource"><a href="${projects[i].livelink}">See Live</a><img src="./css/icons/GitHub-popup.png" alt=""></button>
       </div>
     </div>
     <div id="blurry"></div>

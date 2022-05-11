@@ -6,6 +6,13 @@ padding: 0;
 background-color: white;
 }
 
+/* Popup */
+.centeredDynamics {
+  display: flex;
+  justify-content: center;
+  margin-bottom:5%;
+}
+
 .main {
     width:100vw;
     height:100vh;
@@ -16,7 +23,6 @@ background-color: white;
     justify-content: center;
 }
 
-/* Popup */
 .popup {
 /*   position: absolute; */
 width: 95%;
