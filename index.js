@@ -1,3 +1,5 @@
+// Toggable hamburger menu
+
 const displayedMenu = document.querySelector('.displayedMenu');
 const menuItems = document.querySelectorAll('.menuItem');
 const hamburgerToggle = document.querySelector('.hamburgerToggle');
@@ -23,6 +25,9 @@ menuItems.forEach(
     doesntExist.addEventListener('click', openMenuHam);
   },
 );
+
+// Dynamic project cards and popup windows
+
 const projects = [
   {
     name: 'Multi-Post Stories',
@@ -176,6 +181,7 @@ for (let i = 0; i < projects.length; i += 1) {
 }
 
 // Validate contact form
+
 const form = document.querySelector('.actualForm');
 const email = document.getElementById('mail');
 const error = document.getElementById('error');
@@ -193,3 +199,35 @@ function validateEmail(event) {
 }
 
 form.addEventListener('submit', validateEmail);
+
+// Local storage
+const username = document.getElementById('username');
+const mail = document.getElementById('mail');
+const message = document.getElementById('message');
+const formButton = document.getElementById('formButton');
+
+formButton.addEventListener('click', () => {
+  const nameValue = username.value;
+  const mailValue = mail.value;
+  const messageValue = message.value;
+
+  const user = {
+    nameValue,
+    mailValue,
+    messageValue,
+  };
+
+  if (nameValue && mailValue && messageValue) {
+    const stringedUser = JSON.stringify(user);
+    localStorage.setItem('user', stringedUser);
+  }
+});
+
+// Pre-filled data
+
+if (localStorage.getItem('user')) {
+  const user = JSON.parse(localStorage.getItem('user'));
+  username.value = user.nameValue;
+  mail.value = user.mailValue;
+  message.value = user.messageValue;
+}
