@@ -23,7 +23,7 @@
  ```
 - Alternatively, you can just download the complete zip file and extract the folder in your directory
 #### Step 2:
-- In the project directory, you can run:
+- In your terminal, you can run:
 ```bash
 > cd portfolio
 > code .
