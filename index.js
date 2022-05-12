@@ -27,7 +27,7 @@ const projects = [
   {
     name: 'Multi-Post Stories',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    image: './css/Works/preview.png',
+    image: './css/Works/Preview.png',
     technology: ['HTML', 'CSS', 'Javascript'],
     livelink: '#',
     sourcelink: '#',
@@ -38,7 +38,7 @@ const projects = [
   {
     name: 'Profesional Art Printing Data',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    image: './css/Works/preview.png',
+    image: './css/Works/Preview.png',
     technology: ['HTML', 'CSS', 'Javascript'],
     livelink: '#',
     sourcelink: '#',
@@ -49,7 +49,7 @@ const projects = [
   {
     name: 'Data Dashboard Healthcare',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    image: './css/Works/preview.png',
+    image: './css/Works/Preview.png',
     technology: ['HTML', 'CSS', 'Javascript'],
     livelink: '#',
     sourcelink: '#',
@@ -60,7 +60,7 @@ const projects = [
   {
     name: 'Website Protfolio',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    image: './css/Works/preview.png',
+    image: './css/Works/Preview.png',
     technology: ['HTML', 'CSS'],
     livelink: '#',
     sourcelink: '#',
@@ -71,7 +71,7 @@ const projects = [
   {
     name: 'Profesional Art Printing Data',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    image: './css/Works/preview.png',
+    image: './css/Works/Preview.png',
     technology: ['HTML', 'CSS', 'Javascript'],
     livelink: '#',
     sourcelink: '#',
@@ -82,7 +82,7 @@ const projects = [
   {
     name: 'Data Dashboard Healthcare',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    image: './css/Works/preview.png',
+    image: './css/Works/Preview.png',
     technology: ['HTML', 'CSS', 'Javascript', 'Bootstrap'],
     livelink: '#',
     sourcelink: '#',
