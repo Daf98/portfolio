@@ -206,7 +206,7 @@ const mail = document.getElementById('mail');
 const message = document.getElementById('message');
 const formButton = document.getElementById('formButton');
 
-formButton.addEventListener('click', () => {
+function storeData() {
   const nameValue = username.value;
   const mailValue = mail.value;
   const messageValue = message.value;
@@ -221,7 +221,12 @@ formButton.addEventListener('click', () => {
     const stringedUser = JSON.stringify(user);
     localStorage.setItem('user', stringedUser);
   }
-});
+}
+formButton.addEventListener('click', storeData);
+
+username.addEventListener('keyup', storeData);
+mail.addEventListener('keyup', storeData);
+message.addEventListener('keyup', storeData);
 
 // Pre-filled data
 
