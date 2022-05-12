@@ -174,3 +174,22 @@ for (let i = 0; i < projects.length; i += 1) {
     });
   });
 }
+
+// Validate contact form
+const form = document.querySelector('.actualForm');
+const email = document.getElementById('mail');
+const error = document.getElementById('error');
+
+function validateEmail(event) {
+  const message = [];
+  event.preventDefault();
+  if (email.value !== email.value.toLowerCase()) {
+    error.style.display = 'block';
+    message.push('Email must be in lowercase');
+    error.innerText = message.join(', ');
+  } else {
+    form.submit();
+  }
+}
+
+form.addEventListener('submit', validateEmail);

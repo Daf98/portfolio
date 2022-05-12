@@ -6,6 +6,16 @@ body {
   background-color: white;
 }
 
+#error {
+  border: 1px solid orangered;
+  color: black;
+  font-weight: bolder;
+  padding: 1%;
+  text-align: center;
+  margin-bottom: 5%;
+  display: none;
+}
+
 /* Popup */
 
 .flexPop {

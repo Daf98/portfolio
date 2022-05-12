@@ -2,12 +2,16 @@
 
 # Project Name
 
-> Portfolio template
+> Portfolio
+
+# Project Description
+
+> This is my personal portfolio with all of my projects, my info and ways to contact me :smile:
 
 
 ## Built With
 
-- HTML, CSS
+- HTML, CSS, JS
 - Github
 
 ## Getting Started
