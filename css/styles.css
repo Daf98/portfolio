@@ -332,6 +332,7 @@ ul {
 
 .icons {
   display: flex;
+  align-items: center;
 }
 
 .icons li {
@@ -736,6 +737,10 @@ textarea {
 /* Desktop version */
 
 @media only screen and (min-width: 1440px) {
+  .closeIcon {
+    display: none;
+  }
+
   .flexPop {
     display: grid;
     grid-template-columns: 55% 45%;
@@ -929,12 +934,13 @@ textarea {
     transition: all 0.5s ease;
   }
 
-  .displayedMenu:hover {
-    color: #ff6b00;
-  }
-
   .envelopeIcon {
     display: block;
+  }
+
+  .menuItem:hover,
+  .envelopeIcon:hover {
+    color: #f55800;
   }
 
   .desktopRow {
@@ -1246,6 +1252,10 @@ textarea {
 
 /* Tablet version */
 @media only screen and (max-width: 1440px) and (min-width: 768px) {
+  .closeIcon {
+    display: none;
+  }
+
   .container {
     background: #3e3c3c;
     margin: 0;
@@ -1309,12 +1319,13 @@ textarea {
     transition: all 0.5s ease;
   }
 
-  .displayedMenu:hover {
-    color: #f55800;
-  }
-
   .envelopeIcon {
     display: block;
+  }
+
+  .menuItem:hover,
+  .envelopeIcon:hover {
+    color: #f55800;
   }
 
   .desktopRow {
@@ -1565,5 +1576,9 @@ textarea {
 
   .hiddenButton {
     display: block;
+  }
+
+  .popupImg {
+    width: auto;
   }
 }
