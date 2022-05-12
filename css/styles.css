@@ -6,6 +6,167 @@ body {
   background-color: white;
 }
 
+/* Popup */
+
+.flexPop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centeredDynamics {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background-color: rgb(0, 0, 0, 80%);
+  display: flex;
+  justify-content: center;
+}
+
+.popup {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  background: #fff;
+  gap: 15px;
+  padding: 3% 5%;
+}
+
+.popupDesktop {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  gap: 15px;
+  margin: 10% 5%;
+  transition: 200ms ease-out;
+  inset: 0 0 0 0;
+}
+
+.popup.active {
+  transform: scale(1);
+}
+
+.popupIntro {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5% 0;
+}
+
+.popupName {
+  align-self: flex-start;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  color: #172b4d;
+  margin: 0;
+}
+
+.popupClose {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 2rem;
+}
+
+.popupButtons {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: flex-start;
+  gap: 10px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #3c3a39;
+  padding: 0;
+}
+
+.listItemPopup {
+  justify-self: flex-start;
+  border: 1px solid #3c3a39;
+  padding: 2%;
+}
+
+.popupImg {
+  width: 100%;
+}
+
+.popupDescription {
+  width: 100%;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #344563;
+}
+
+.popupSources {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-bottom: 5%;
+}
+
+.popupLive,
+.popupSource {
+  display: flex;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  background-color: #ff6b00;
+  color: white;
+  padding: 2%;
+  align-items: center;
+  width: 45%;
+  justify-content: space-around;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+#blurry {
+  position: fixed;
+  opacity: 1;
+  transition: 200ms ease-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(2px);
+  pointer-events: none;
+}
+
+#blurry.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* End Popup */
+
 /* First page */
 .firstPage {
   background-color: #1c1a19;
@@ -565,6 +726,144 @@ textarea {
 /* Desktop version */
 
 @media only screen and (min-width: 1440px) {
+  .flexPop {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: 80% 20%;
+    margin-bottom: 2%;
+  }
+
+  /* Popup */
+
+  .main {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background-color: rgb(0, 0, 0, 80%);
+    display: flex;
+    justify-content: center;
+  }
+
+  .popup {
+    padding: 2% 2%;
+  }
+
+  .popup.active {
+    transform: scale(1);
+  }
+
+  .popupIntro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  .popupName {
+    align-self: flex-start;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .popupClose {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 2rem;
+  }
+
+  .popupButtons {
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    gap: 10px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #3c3a39;
+  }
+
+  .listItemPopup {
+    justify-self: flex-start;
+    border: 1px solid #3c3a39;
+    padding: 10px;
+  }
+
+  .popupImg {
+    width: 95%;
+    grid-area: 1 / 1 / span 2 / span 1;
+  }
+
+  .popupDescription {
+    width: 95%;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #344563;
+    align-self: start;
+  }
+
+  .popupSources {
+    display: flex;
+    width: 100%;
+    align-self: end;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-bottom: 0;
+  }
+
+  .popupLive,
+  .popupSource {
+    width: auto;
+    display: flex;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    background-color: #ff6b00;
+    color: white;
+    padding: 3%;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    gap: 15px;
+  }
+
+  #blurry {
+    position: fixed;
+    opacity: 1;
+    transition: 200ms ease-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    pointer-events: none;
+  }
+
+  #blurry.active {
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  /* End Popup */
+
   /* First page */
   .container {
     background: #3e3c3c;
@@ -726,6 +1025,11 @@ textarea {
     color: #fff;
   }
 
+  .hidden:hover {
+    color: transparent;
+    display: none;
+  }
+
   .mainText {
     color: black;
     padding-left: 10px;
@@ -768,6 +1072,11 @@ textarea {
     margin-left: 4px;
     padding: 20px;
     padding-bottom: 0;
+  }
+
+  .socials:hover {
+    display: none;
+    visibility: hidden;
   }
 
   .secondCard {
@@ -918,6 +1227,10 @@ textarea {
 
   .formButton {
     background-color: #f55800;
+  }
+
+  .hiddenButton {
+    display: block;
   }
 }
 
@@ -1149,10 +1462,6 @@ textarea {
     padding-bottom: 0;
   }
 
-  .regButton {
-    display: none;
-  }
-
   /* Third page */
 
   .aboutMe {
@@ -1238,5 +1547,13 @@ textarea {
 
   .formInput {
     border-bottom: 684px 1px solid lightgray;
+  }
+
+  .regButton {
+    display: none;
+  }
+
+  .hiddenButton {
+    display: block;
   }
 }
