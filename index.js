@@ -18,11 +18,17 @@ function openMenuHam() {
   }
 }
 
+function clickLinks() {
+  displayedMenu.classList.remove('openMenu');
+  closeIcon.style.display = 'none';
+  menuIcon.style.display = 'block';
+}
+
 hamburgerToggle.addEventListener('click', openMenuHam);
 
 menuItems.forEach(
   (doesntExist) => {
-    doesntExist.addEventListener('click', openMenuHam);
+    doesntExist.addEventListener('click', clickLinks);
   },
 );
 
