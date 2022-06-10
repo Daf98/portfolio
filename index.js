@@ -36,12 +36,12 @@ menuItems.forEach(
 
 const projects = [
   {
-    name: 'Multi-Post Stories',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    image: './css/Works/Preview.png',
+    name: 'Socionics Convention',
+    description: "This project is about a convention where people interested in Socionics can learn about it, see real-life scenarios and examples, and meet people. Maybe you'll even meet your dual! 😄",
+    image: './css/Works/portfolio-img.png',
     technology: ['HTML', 'CSS', 'Javascript'],
-    livelink: '#',
-    sourcelink: '#',
+    livelink: 'https://daf98.github.io/Capstone1/',
+    sourcelink: 'https://github.com/Daf98/Capstone1',
     id: 'btn1',
     class: 'firstCard',
   },

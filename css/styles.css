@@ -77,7 +77,6 @@ body {
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  padding: 5% 0;
 }
 
 .popupName {
@@ -121,7 +120,8 @@ body {
 }
 
 .popupImg {
-  width: 100%;
+  max-height: 25%;
+  max-width: 25%;
 }
 
 .popupDescription {
@@ -391,7 +391,7 @@ ul {
 }
 
 .secondItem {
-  background-image: url('./Images/secondBG.png');
+  background-image: url('./Images/socio-convention.png');
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -444,7 +444,6 @@ ul {
   box-sizing: border-box;
   padding: 10px 12px;
   margin-right: 12px;
-  color: white;
 }
 
 .specialButton {
@@ -1085,7 +1084,7 @@ textarea {
   }
 
   .firstCard {
-    background-image: url('./Cards/firstCard.png');
+    background-image: url('./Images/socio-convention.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 40px;
@@ -1428,7 +1427,7 @@ textarea {
   }
 
   .firstCard {
-    background-image: url('./Cards/firstCard.png');
+    background-image: url('./Images/socio-convention.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 40px;
