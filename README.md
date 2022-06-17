@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Portfolio
-![](https://user-images.githubusercontent.com/82343891/174390514-f62e47aa-e332-494c-a8f9-5d1155aed048.png)
+![](https://user-images.githubusercontent.com/82343891/174390625-8f2580fd-720d-4ee9-9e10-2162d4262777.png)
 
 # Project Description
 
